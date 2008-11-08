@@ -10,6 +10,7 @@ my $builder = Module::Build->new(
    	requires            => {
 		'Padre::Plugin::AcmePlayCode'  => 0,
 		'Padre::Plugin::CPAN'          => 0,
+		'Padre::Plugin::Encrypt'	   => 0,
 		'Padre::Plugin::PAR'           => '0.03',
 		'Padre::Plugin::PerlCritic'    => 0,
 		'Padre::Plugin::PerlTidy'      => 0,
