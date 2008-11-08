@@ -1,7 +1,7 @@
 Revision history for Task-Padre-Plugins
 
 0.02	2008.11.X
-		add Padre::Plugin::Encrypt
+		add Padre::Plugin::Encrypt and Padre::Plugin::UpLowCase
 
 0.01    2008.11.07
         First version, released on an unsuspecting world.
