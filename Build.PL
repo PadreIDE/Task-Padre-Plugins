@@ -16,11 +16,8 @@ my $builder = Module::Build->new(
 		'Padre::Plugin::PerlTidy'      => 0,
 		'Padre::Plugin::PluginHelper'  => '0.06',
 		'Padre::Plugin::Pip'           => '0.13',
-		'Padre::Plugin::TabAndSpace'   => 0,
-		'Padre::Plugin::UpLowCase'	   => 0,
 		'Padre::Plugin::Validator'     => 0,
 		'Padre::Plugin::ViewInBrowser' => 0,
-		'Padre::Plugin::WordStats'     => 0,
 	},
 
     build_requires => {
