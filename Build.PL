@@ -16,7 +16,7 @@ my $builder = Module::Build->new(
 #		'Padre::Plugin::PIR'          # this was only a typo
 		'Padre::Plugin::PerlCritic'    => 0,
 		'Padre::Plugin::PerlTidy'      => 0,
-		'Padre::Plugin::PluginHelper'  => '0.06',
+#		'Padre::Plugin::PluginHelper'  => '0.06',  # integrated in Padre
 		'Padre::Plugin::Pip'           => '0.13',
 #		Padre::Plugin::TabAndSpace                  integrated in Padre
 #		Padre::Plugin::UpLowCase                    integrated in Padre
