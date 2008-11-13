@@ -11,6 +11,7 @@ my $builder = Module::Build->new(
 		'Padre::Plugin::AcmePlayCode'  => 0,       # depends on Moose
 		'Padre::Plugin::CPAN'          => 0,
 		'Padre::Plugin::Encrypt'	   => 0,
+		'Padre::Plugin::HTML::Export'  => 0,
 		'Padre::Plugin::PAR'           => '0.03',
 #		'Padre::Plugin::Parrot'                    # only for people with Parrot on their computer
 #		'Padre::Plugin::PIR'          # this was only a typo
@@ -19,6 +20,7 @@ my $builder = Module::Build->new(
 #		'Padre::Plugin::PluginHelper'  => '0.06',  # integrated in Padre
 		'Padre::Plugin::Pip'           => '0.13',
 #		Padre::Plugin::TabAndSpace                  integrated in Padre
+		'Padre::Plugin::Tidy'		   => 0,
 #		Padre::Plugin::UpLowCase                    integrated in Padre
 		'Padre::Plugin::Validator'     => 0,
 		'Padre::Plugin::ViewInBrowser' => 0,
