@@ -11,7 +11,7 @@ my $builder = Module::Build->new(
 		'Padre::Plugin::AcmePlayCode'  => 0,       # depends on Moose
 		'Padre::Plugin::CPAN'          => 0,
 		'Padre::Plugin::Encrypt'	   => 0,
-		'Padre::Plugin::HTML::Export'  => 0,
+		'Padre::Plugin::HTMLExport'    => 0,
 		'Padre::Plugin::PAR'           => '0.03',
 #		'Padre::Plugin::Parrot'                    # only for people with Parrot on their computer
 #		'Padre::Plugin::PIR'          # this was only a typo

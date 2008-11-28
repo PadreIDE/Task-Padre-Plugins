@@ -2,7 +2,7 @@ Revision history for Task-Padre-Plugins
 
 0.04
 		add Padre::Plugin::Tidy
-		add Padre::Plugin::HTML::Export
+		add Padre::Plugin::HTMLExport
 
 0.03    2008.11.12
 
