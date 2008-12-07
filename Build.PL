@@ -9,6 +9,7 @@ my $builder = Module::Build->new(
     dist_version_from   => 'lib/Task/Padre/Plugins.pm',
    	requires            => {
 		'Padre::Plugin::AcmePlayCode'  => 0,       # depends on Moose
+		'Padre::Plugin::Alarm'         => 0,
 		'Padre::Plugin::CPAN'          => 0,
 		'Padre::Plugin::Encrypt'	   => 0,
 		'Padre::Plugin::HTMLExport'    => 0,
